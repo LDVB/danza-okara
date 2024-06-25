@@ -1,0 +1,40 @@
+.BannerClubAmigos {
+  position: relative;
+  height: 356px;
+  margin-bottom: 15px;
+}
+
+.img-BannerClubAmigos{
+  width: 100%;
+  height: 430px;
+  object-fit:cover;
+  object-position: 50% 25%;
+  margin-bottom: 15px;
+}
+
+.texto-superpuesto-BannerClubAmigos{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  padding: 10px;
+  text-align: center;
+}
+.titulo-BannerClubAmigos {
+  font-family: "DM Serif Display", serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+@media (max-width: 576px) {
+  .img-BannerClubAmigos{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .texto-superpuesto-BannerClubAmigos{
+    top: 80%;
+  }
+  
+}

@@ -1,0 +1,34 @@
+.titulo-nav {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.texto-nav {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
+.texto-nav:hover {
+  color: #2c96bf !important;
+}
+
+.menu-end {
+  margin-left: 500px;
+}
+
+.link-none {
+  text-decoration: none;
+}
+
+.ancho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 551px)  {
+  .titulo-nav {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+  }
+} 
+  

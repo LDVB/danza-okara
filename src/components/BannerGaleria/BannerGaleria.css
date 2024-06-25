@@ -1,0 +1,36 @@
+.BannerGaleria {
+  position: relative;
+  height: 356px;
+  margin-bottom: 15px;
+}
+
+.img-BannerGaleria{
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: 50% 25%;
+  margin-bottom: 15px;
+}
+
+.texto-superpuesto-BannerGaleria{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  padding: 10px;
+  text-align: center;
+}
+.titulo-BannerGaleria {
+  font-family: "DM Serif Display", serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+@media (max-width: 576px) {
+  .img-BannerGaleria{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+}

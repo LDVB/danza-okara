@@ -1,0 +1,132 @@
+.invitacion {
+    margin-top: 91px;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-invitacion {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+  }
+  
+  .img-invitacion1 {
+    width: 735px;
+  }
+  .img-invitacion2 {
+    width: 560px;
+  }
+  .texto-superpuesto {
+    position: absolute; 
+    top: 65%; 
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+  }
+  
+  .titulo-inv {
+    font-family: "DM Serif Display", serif;
+    color: #fff;
+    font-size: 55px;
+    line-height: 125%;
+  }
+  
+  .texto-inv {
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  
+  .telf{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .img-icono{
+      height: 93px;
+      width: 93px;
+      margin-right: 15px;
+  
+  }
+
+  @media (max-width: 1000px) {
+    .img-invitacion2{
+      display: none;
+    }
+    .texto-superpuesto{
+      margin-left: 85px;
+    }
+    
+    .img-invitacion1 {
+      width: 100%;
+    }
+
+
+  }
+
+
+  @media (max-width: 900px) {
+    .texto-superpuesto{
+      margin-left: 85px;
+    }
+
+    .img-invitacion2{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+
+    .img-invitacion {
+      display: flex;
+      flex-direction: row;
+      height: 800px;
+    }
+
+    .img-invitacion1 {
+      width: 100%;
+    }
+    .texto-superpuesto{
+      margin-left: 105px;
+    }
+
+    .img-invitacion2{
+      display: none;
+    }
+
+  }
+  @media (max-width: 551px) {
+
+    .invitacion{
+      margin-top: 61px;
+      margin-bottom: -370px;
+    }
+    .img-invitacion {
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .img-invitacion1 {
+      width: 100%;
+      height: 400px;
+    }
+    .texto-superpuesto{
+      margin-left: 105px;
+      margin-top: -300px;
+    }
+    .titulo-inv {
+      
+      font-size: 40px;
+      width: max-content;
+    }
+   
+    .img-icono{
+      height: 53px;
+      width: 53px;
+    }
+
+
+  }

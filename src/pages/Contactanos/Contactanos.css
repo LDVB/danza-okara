@@ -1,0 +1,14 @@
+.enLinea{
+  display: flex;
+  justify-content: baseline;
+  margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  .enLinea {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 91px;
+  }
+}

@@ -1,0 +1,40 @@
+.BannerClases {
+  position: relative;
+  height: 356px;
+  margin-bottom: 15px;
+}
+
+.img-BannerClases{
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: 50% 25%;
+  margin-bottom: 15px;
+}
+
+.texto-superpuesto-BannerClases{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  padding: 10px;
+  text-align: center;
+}
+.titulo-BannerClases{
+  font-family: "DM Serif Display", serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+@media (max-width: 576px) {
+
+  .BannerClases {
+    margin-bottom: -91px;
+  }
+
+  .img-BannerClases{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

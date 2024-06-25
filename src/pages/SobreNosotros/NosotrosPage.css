@@ -1,0 +1,25 @@
+.box{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.texto-motiv2{
+  width: 751px;
+  margin-top: 91px;
+  font-family: "DM Serif Display", serif;
+  font-size: 35px;
+  line-height: 125%;
+  text-align: center;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+
+
+}
+.autor{
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 91px;
+}
+
+

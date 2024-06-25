@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 91px;
+
+}
+.titulo-footer {
+  font-family: "DM Serif Display", serif;
+  font-size: 22px;
+}
+.titulo-footer-DO {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  line-height: 125% ;
+}
+
+.texto-footer {
+  font-family: "Jost", sans-serif;
+  font-size: 22px
+}
+
+.logos-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyRight{
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link-none{
+  text-decoration: none;
+  color:black
+}
+
+.logo{
+  height: 36px;
+}
+
+.footerContainer{
+  display: flex;
+  width: 75%;
+
+}
+
+.pages-footer, .clases-footer, .contacto-footer{
+  width: 100%;
+  margin: 0px, 20px;
+}
+
+@media (max-width: 991px) {
+  .footer{
+    margin-top: -25px;
+  }
+  
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logos-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+  }
+
+  .texto-footer{
+    display: none;
+  }
+
+  .titulo-footer{
+    text-align: center;
+  }
+
+  .footerContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .footer{
+    margin-top: -25px;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logos-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+  }
+
+  .texto-footer, .pages-footer{
+    display: none;
+  }
+
+  .titulo-footer{
+    text-align: center;
+  }
+
+  .footerContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+}

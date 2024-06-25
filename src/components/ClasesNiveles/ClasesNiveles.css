@@ -1,0 +1,130 @@
+.clases {
+  margin-top: 91px;
+}
+.titulo-clases-niveles {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.texto-clases {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+.niveles {
+  margin-top: 55px;
+}
+
+.niv-right,
+.niv-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-class-nivel {
+  width: 625px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 400px;
+}
+
+.img-class-nivel-izq {
+  width: 625px;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 400px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.number {
+  color: #2c96bf;
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  display: flex;
+  justify-content: end;
+}
+
+.title-class {
+  font-family: "DM Serif Display", serif;
+  font-size: 35px;
+  text-align: center;
+}
+.texto-class {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+}
+.texto-derecha {
+  margin: 0px 55px;
+  align-items: baseline;
+}
+.number-left {
+  color: #2c96bf;
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  display: flex;
+  justify-content: start;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .img-class-nivel {
+    width: 325px;
+    object-fit: cover;
+  }
+
+  .img-class-nivel-izq {
+    width: 325px;
+    object-fit: cover;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .Desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .columnaClase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .left {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .img-class-nivel .img-class-nivel-izq {
+    width: 350px;
+  }
+
+  .columnaClase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .left {
+    margin-top: 150px;
+  }
+}

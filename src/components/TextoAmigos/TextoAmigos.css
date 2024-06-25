@@ -1,0 +1,34 @@
+.textos-Amigos{
+    font-family: "Jost", sans-serif;
+    margin-top: 91px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-Amigos{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.img-amigos{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .textos-Amigos {
+      flex-direction: column; 
+      margin-top: 20px; 
+  }
+
+  .texto-Amigos {
+      font-size: 18px; 
+      padding: 10px; 
+  }
+
+  .img-amigos {
+      width: 100%; 
+  }
+}
