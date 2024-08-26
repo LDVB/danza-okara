@@ -20,7 +20,7 @@ const ContactoAmigos = () => {
         <img
           className="img-amigos1"
           alt="Club de Amigos en el escenario"
-          src="src\assets\clubamigos.jpg"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
         />
       </div>
       <div className="textos-amigos">

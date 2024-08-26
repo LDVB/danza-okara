@@ -30,7 +30,7 @@ const ClasesCards = () => {
                 <img
                   className="img-class"
                   alt="clases de nivel avanzado"
-                  src="src/assets/clases1.jpg"
+                  src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
                 />
                 <div className="cta-cards">
                   Avanzado
@@ -49,7 +49,7 @@ const ClasesCards = () => {
                 <img
                   className="img-class"
                   alt="clases de nivel medio"
-                  src="src/assets/clases2.jpg"
+                  src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
                 />
                 <div className="cta-cards">
                   Medio
@@ -70,7 +70,7 @@ const ClasesCards = () => {
                 <img
                   className="img-class"
                   alt="clases de nivel iniciación"
-                  src="src/assets/clases3.jpg"
+                  src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
                 />
                 <div className="cta-cards">
                   Iniciación
@@ -89,7 +89,7 @@ const ClasesCards = () => {
                 <img
                   className="img-class"
                   alt="clases de fusión latinos"
-                  src="src/assets/clases4.jpg"
+                  src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
                 />
                 <div className="cta-cards">
                   Fusión latinos

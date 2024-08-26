@@ -8,7 +8,7 @@ const ContactCards = () => {
           <div class="card__icon">
             <img
               alt="Logo Danza Okara"
-              src="src\assets\alfiler.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
               width="50px"
               height="auto"
             />

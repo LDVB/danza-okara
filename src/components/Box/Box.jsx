@@ -34,7 +34,7 @@ const Box = () => {
           <img
             className="img-class-box"
             alt="Alas de isis doradas y azules"
-            src="src\assets\alasIsisdoradasyAzules.jpg"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
           />
         </div>
 
@@ -73,7 +73,7 @@ const Box = () => {
           <img
             className="img-class-box"
             alt="bailarina con alas de isis de color bronce"
-            src="src\assets\alasIsis.jpg"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
           />
         </div>
 

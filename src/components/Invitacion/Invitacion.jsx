@@ -26,7 +26,7 @@ const Invitacion = () => {
               <img
                 className="img-icono"
                 alt="icono telefono"
-                src="src\assets\CallIcon.png"
+                src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
               />
               <a href="tel:+34628683885"><p className="texto-inv">
                 628 68 38 85
