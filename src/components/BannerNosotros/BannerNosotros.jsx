@@ -6,7 +6,7 @@ const BannerNosotros = () => {
       <img
         className="img-BannerNosotros"
         alt="Puesta en escena coreografia"
-        src="src\assets\nosotrosBanner.jpg"
+        src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/nosotrosBanner_fzjjb1.jpg"
       />
       <div class="texto-superpuesto-BannerNosotros">
         <p className="titulo-BannerNosotros">Sobre nosotros</p>  

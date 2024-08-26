@@ -30,14 +30,14 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="logo" src="src\assets\instagram.png" />
+              <img className="logo" src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/instagram_b0blvi.png" />
             </a>
             <a
               href="https://www.facebook.com/danza.okara/?locale=es_ES"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="logo" src="src\assets\facebook.png" />
+              <img className="logo" src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/facebook_erigmc.png" />
             </a>
           </div>
         </div>

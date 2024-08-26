@@ -37,7 +37,7 @@ const ClasesCards = () => {
                   <img
                     className="icon-cards"
                     alt="clases de nivel avanzado"
-                    src="src/assets/IconRow.png"
+                    src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
                   />
                 </div>
               </Link>
@@ -56,7 +56,7 @@ const ClasesCards = () => {
                   <img
                     className="icon-cards"
                     alt="clases de nivel medio"
-                    src="src/assets/IconRow.png"
+                    src="shttps://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
                   />
                 </div>
               </Link>
@@ -77,7 +77,7 @@ const ClasesCards = () => {
                   <img
                     className="icon-cards"
                     alt="clases de nivel medio"
-                    src="src/assets/IconRow.png"
+                    src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
                   />
                 </div>
               </Link>
@@ -96,7 +96,7 @@ const ClasesCards = () => {
                   <img
                     className="icon-cards"
                     alt="clases de nivel medio"
-                    src="src/assets/IconRow.png"
+                    src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
                   />
                 </div>
               </Link>

@@ -98,7 +98,7 @@ const Box = () => {
           <img
             className="img-class-box mobile"
             alt="madre e hija sonriendo juntas"
-            src="src\assets\madre-hija.jpg"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/madre-hija_zsm4cz.jpg"
           />
           
         </div>
