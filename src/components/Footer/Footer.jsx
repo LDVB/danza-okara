@@ -16,7 +16,7 @@ function Footer() {
         <div className="logos">
           <img
             alt="Logo Danza Okara"
-            src="src\assets\LogoDO.png"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/LogoDO_cnsgze.png"
             width="43px"
             height="auto"
             className="d-inline-block align-top"

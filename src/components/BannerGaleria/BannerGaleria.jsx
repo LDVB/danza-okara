@@ -6,7 +6,7 @@ const BannerGaleria = () => {
       <img
         className="img-BannerGaleria"
         alt="tela azul ondeando"
-        src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
+        src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696729/telon_vpplk2.png"
       />
       <div class="texto-superpuesto-BannerGaleria">
         <p className="titulo-BannerGaleria">Galeria</p>  

@@ -7,7 +7,7 @@ const Banner = () => {
       <img
         className="img-banner"
         alt="Profesora Conchi Jato"
-        src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
+        src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696721/banner_vxswq3.png"
       />
       <div class="texto-superpuesto-banner">
         <p className="titulo-banner">¿Quieres venir a bailar con nosotros?</p>

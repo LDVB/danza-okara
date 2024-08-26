@@ -20,7 +20,7 @@ function Menu() {
         <Navbar.Brand href="#home">
           <img
             alt="Logo Danza Okara"
-            src="src\assets\LogoDO.png"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/LogoDO_cnsgze.png"
             width="100px"
             height="auto"
             className="d-inline-block align-top"

@@ -34,7 +34,7 @@ const Box = () => {
           <img
             className="img-class-box"
             alt="Alas de isis doradas y azules"
-            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696721/alasIsisdoradasyAzules_um0ocf.jpg"
           />
         </div>
 
@@ -42,7 +42,7 @@ const Box = () => {
           <img
             className="img-class-box desktop"
             alt="Coreografia de Guerreras"
-            src="src\assets\guerreras.jpg"
+            src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/guerreras_g7egy8.jpg"
           />
           <p>
             En Danza Okara, creemos en la importancia de preservar las
