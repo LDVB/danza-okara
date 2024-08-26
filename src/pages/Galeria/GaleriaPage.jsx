@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import React, { useState } from "react";
 import { Container, Nav } from "react-bootstrap";
-import Lightbox from 'lightbox-react';
-import 'lightbox-react/style.css';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 import "./GaleriaPage.css";
 import BannerGaleria from "../../components/BannerGaleria/BannerGaleria";
 

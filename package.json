@@ -16,11 +16,11 @@
     "@emailjs/browser": "^4.3.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
-    "lightbox-react": "^0.3.8",
-    "react": "^16.14.0",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^16.14.0",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
+    "react-image-lightbox": "^5.1.4",
     "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
