@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
- .items {
+.items {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -55,40 +55,40 @@
   width: 50%;
   right: 0;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 30px;
+  gap: 10px; /* Espacio entre imágenes */
 }
 
 .gallery .pic {
-  width: calc(100% / 5);
-}
-
-.gallery .pic span {
+  width: 200px; /* Ancho fijo para cada imagen */
+  height: 200px; /* Alto fijo para cada imagen */
   display: flex;
-  width: 100%;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del contenedor */
 }
 
 .gallery .pic img {
-  width: 200px;
-  height: 250px;
-  object-fit: cover;
-  object-position: top;
-  vertical-align: middle;
-  margin: 10px;
-  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  transition: transform 0.3s ease;
 }
 
 .gallery .pic:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
 }
 
 @media (max-width: 1000px) {
   .gallery .pic {
-    width: calc(100% / 2);
+    width: 150px; /* Ajuste de tamaño en pantallas medianas */
+    height: 150px;
   }
   nav .items {
     width: 100%;
@@ -99,17 +99,11 @@
 }
 
 @media (max-width: 600px) {
-
-  .nav{
+  .gallery .pic {
+    width: 100px; /* Ajuste de tamaño en pantallas pequeñas */
+    height: 100px;
+  }
+  .nav {
     margin-bottom: -60px;
-  }
-  .gallery .pic {
-    
-    width: calc(100% /2);
-    justify-content: center;
-  }
-  
-  .gallery .pic {
-    width: 50%;
   }
 }
