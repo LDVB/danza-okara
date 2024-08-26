@@ -8,12 +8,12 @@ const Invitacion = () => {
             <img
               className="img-invitacion1"
               alt="bailarina en camerino"
-              src="src\assets\parte1.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/parte1_hxch1w.png"
             />
             <img
               className="img-invitacion2"
               alt="fondo plano"
-              src="src\assets\parte2.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/parte2_kosu7o.png"
             />
           </div>
 
@@ -26,7 +26,7 @@ const Invitacion = () => {
               <img
                 className="img-icono"
                 alt="icono telefono"
-                src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
+                src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696721/CallIcon_wokd7m.png"
               />
               <a href="tel:+34628683885"><p className="texto-inv">
                 628 68 38 85

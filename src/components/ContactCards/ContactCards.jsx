@@ -8,7 +8,7 @@ const ContactCards = () => {
           <div class="card__icon">
             <img
               alt="Logo Danza Okara"
-              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696720/alasIsis_ynklem.jpg"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696721/alfiler_icxek6.png"
               width="50px"
               height="auto"
             />
@@ -21,7 +21,7 @@ const ContactCards = () => {
           <div class="card__icon">
             <img
               alt="Logo Danza Okara"
-              src="src\assets\reloj-de-pared.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/reloj-de-pared_gngpox.png"
               width="50px"
               height="auto"
             />
@@ -36,7 +36,7 @@ const ContactCards = () => {
           <div class="card__icon">
             <img
               alt="Logo Danza Okara"
-              src="src\assets\correo-electronico.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/correo-electronico_mlbi98.png"
               width="50px"
               height="auto"
             />
@@ -50,7 +50,7 @@ const ContactCards = () => {
           <div class="card__icon">
             <img
               alt="Logo Danza Okara"
-              src="src\assets\telefono-inteligente.png"
+              src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696728/telefono-inteligente_xwuccw.png"
               width="50px"
               height="auto"
             />
