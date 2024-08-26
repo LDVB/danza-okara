@@ -18,7 +18,7 @@ const ClubAmigosPage = () => {
       <Container>
         <div className="texto1-motiv">
           Tanto si estás explorando los movimientos fluidos como si te sumerges
-          en los ritmos vibrantes
+          en los ritmos vibrantes...
         </div>
         <p className="texto2-motiv">¡Ven con nosotros al mundo del baile!</p>
         <TextoAmigos/>
