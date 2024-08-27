@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react';
 import './App.css'
 import Menu from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
@@ -10,8 +11,6 @@ function App() {
    <Menu/>
    <AppRoutes/>
    <Footer/>
-
-
 
     </>
   )

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Carousel } from "react-bootstrap";
 import "./Hero.css";
 import { Link } from "react-router-dom";

@@ -1,6 +1,8 @@
 import "./Banner.css";
 import {Button} from "react-bootstrap";
 import { Link } from "react-router-dom";
+import React from 'react';
+
 
 const Banner = () => {
   return (

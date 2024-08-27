@@ -1,4 +1,6 @@
 import "./BannerContactanos.css";
+import React from 'react';
+
 
 const BannerContactanos = () => {
   return (

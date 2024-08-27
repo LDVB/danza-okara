@@ -1,6 +1,8 @@
 import { Button } from "react-bootstrap";
 import './Invitacion.css'
 import { Link } from "react-router-dom";
+import React from 'react';
+
 
 const Invitacion = () => {
     return (

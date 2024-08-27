@@ -1,4 +1,6 @@
 import "./TablonesClases.css";
+import React from 'react';
+
 
 import { Carousel, Row } from "react-bootstrap";
 

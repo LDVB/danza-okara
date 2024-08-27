@@ -1,4 +1,6 @@
 import "./BannerGaleria.css";
+import React from 'react';
+
 
 const BannerGaleria = () => {
   return (

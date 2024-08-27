@@ -1,6 +1,8 @@
 import "./Tablones.css";
 import { Link } from "react-router-dom";
 import { Container, Carousel} from "react-bootstrap";
+import React from 'react';
+
 
 const Tablones = () => {
   return (

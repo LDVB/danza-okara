@@ -1,4 +1,6 @@
 import "./BannerClases.css"
+import React from 'react';
+
 
 const BannerClases = () => {
   return (

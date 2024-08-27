@@ -1,4 +1,6 @@
 import "./BannerClubAmigos.css";
+import React from 'react';
+
 
 const BannerClubAmigos = () => {
   return (

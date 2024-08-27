@@ -1,6 +1,8 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { Container, Nav } from "react-bootstrap";
+import React from 'react';
+
 
 function Footer() {
   const scrollToTop = () => {
