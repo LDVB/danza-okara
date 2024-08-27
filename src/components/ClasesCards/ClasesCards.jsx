@@ -56,7 +56,7 @@ const ClasesCards = () => {
                   <img
                     className="icon-cards"
                     alt="clases de nivel medio"
-                    src="shttps://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
+                    src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/IconRow_ny6ixl.png"
                   />
                 </div>
               </Link>

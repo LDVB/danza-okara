@@ -1,10 +1,12 @@
 import { Button, Carousel } from "react-bootstrap";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div className="hero">
-      <Button className="boton" href="/contactanos">
+      <Link to="/contactanos" className="boton">
+        
         ¡Apuntate!
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +20,8 @@ const Hero = () => {
             clipRule="evenodd"
           />
         </svg>
-      </Button>
+        </Link>
+      
       <Carousel data-bs-theme="dark" className="carrousel">
         <Carousel.Item>
           <img

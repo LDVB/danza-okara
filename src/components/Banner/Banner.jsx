@@ -1,5 +1,6 @@
 import "./Banner.css";
 import {Button} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
       <div class="texto-superpuesto-banner">
         <p className="titulo-banner">¿Quieres venir a bailar con nosotros?</p>
         
-        <Button className="boton-banner" href="/contactanos">
+        <Link to="/contactanos"  className="boton-banner" >
           ¡Escribenos!
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +27,7 @@ const Banner = () => {
               clipRule="evenodd"
             />
           </svg>
-        </Button>
+        </Link>
       </div>
     </div>
   );

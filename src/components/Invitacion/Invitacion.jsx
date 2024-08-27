@@ -1,5 +1,6 @@
 import { Button } from "react-bootstrap";
 import './Invitacion.css'
+import { Link } from "react-router-dom";
 
 const Invitacion = () => {
     return (
@@ -34,8 +35,8 @@ const Invitacion = () => {
               </p></a>
               
             </div>
-            <br />
-            <Button className="boton" href="/contactanos">
+            <br /><br />
+            <Link to="/contactanos" className="boton">
               ¡Escribenos!
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +50,7 @@ const Invitacion = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            </Button>
+            </Link>
           </div>
         </div>
       

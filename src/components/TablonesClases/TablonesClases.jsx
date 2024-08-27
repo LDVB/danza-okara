@@ -55,7 +55,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 "
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -68,7 +68,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -81,7 +81,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -94,7 +94,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -107,7 +107,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -120,7 +120,7 @@ const TablonesClases = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Third slide"
         />
         <Carousel.Caption>

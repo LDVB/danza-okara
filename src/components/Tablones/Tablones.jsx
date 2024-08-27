@@ -1,4 +1,5 @@
 import "./Tablones.css";
+import { Link } from "react-router-dom";
 import { Container, Carousel} from "react-bootstrap";
 
 const Tablones = () => {
@@ -12,7 +13,7 @@ const Tablones = () => {
             de la galería de fotos.
           </p>
 
-          <a href="/galeria"><p className="texto">
+          <Link to="/galeria"><p className="texto">
             Ver más
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,15 +27,14 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p>
-          </a>
+          </p></Link>
         </div>
         <div className="tablon">
           <p className="titulo-tablon">Clases y Talleres</p>
           <p className="texto">
             Sumérgete en un mundo de movimiento y expresión de nuestras clases.{" "}
           </p>
-          <a href="/clases"><p className="texto">
+          <Link to="/clases"><p className="texto">
             Ver más
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p></a>
+          </p></Link>
         </div>
         <div className="tablon">
           <p className="titulo-tablon">Nuestro Proyecto</p>
@@ -57,7 +57,7 @@ const Tablones = () => {
             creatividad se unen.
           </p>
           
-            <a href="/sobreNosotros"> <p className="texto">
+          <Link to="/sobreNosotros"> <p className="texto">
             Ver más
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p></a>
+          </p></Link>
         </div>
       </div>
       <div>
@@ -81,7 +81,7 @@ const Tablones = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 "
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -90,7 +90,7 @@ const Tablones = () => {
             Déjate llevar por la pasión y la magia a través
             de la galería de fotos.
           </p>
-          <a href="/galeria">
+          <Link to="/galeria" >
           <p className="texto-tablon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -104,20 +104,21 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p></a>
+          </p></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Second slide"
         />
         <Carousel.Caption>
         <p className="titulo-tablon">Clases y Talleres</p>
         <p className="texto-tablon">
             Sumérgete en un mundo de movimiento y expresión de nuestras clases.{" "}
-          </p><a href="/clases">
+          </p>
+          <Link to="/clases" >
           <p className="texto-tablon">
 
             <svg
@@ -132,13 +133,13 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p></a>
+          </p></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\fondoCarrousel.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/fondoCarrousel_vzzdjm.png"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -147,7 +148,8 @@ const Tablones = () => {
             Bienvenido a nuestra escuela, donde la emoción y la
             creatividad se unen.
           </p>
-            <a href="/sobreNosotros"> <p className="texto">
+          <Link to="/sobreNosotros" > 
+            <p className="texto">
       
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +163,7 @@ const Tablones = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </p></a>
+          </p></Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
