@@ -24,6 +24,9 @@
     "yet-another-react-lightbox": "^3.21.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
