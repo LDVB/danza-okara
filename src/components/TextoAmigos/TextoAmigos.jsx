@@ -28,7 +28,7 @@ const TextoAmigos = () => {
       <img
           className="img-amigos"
           alt="Club de Amigos y Danza Okara en el escenario"
-          src="src\assets\clubamigosEscenario.png"
+          src="https://res.cloudinary.com/ddtolhmab/image/upload/v1724696722/clubamigosEscenario_noejiy.png"
         />
     </>
   );
